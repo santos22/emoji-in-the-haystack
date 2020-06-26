@@ -15,6 +15,11 @@ elasticsearch
 pipenv shell
 ```
 
+## Run migrations
+```bash
+python manage.py migrate
+```
+
 ## Retrieve emoji data
 ```bash
 python manage.py initemojidata
