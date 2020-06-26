@@ -5,7 +5,7 @@ Make sure you meet the following prerequisites before running this project:
 * Pipenv- version 2018.11.26 (run `pipenv --version` to confirm)
 * Elasticsearch - version 5.5.3 (https://www.elastic.co/downloads/past-releases/elasticsearch-5-5-3)
 
-## Running Elasticsearch
+## Run Elasticsearch instance
 ```
 elasticsearch
 ```
@@ -15,7 +15,17 @@ elasticsearch
 pipenv shell
 ```
 
-## Running the app
+## Retrieve emoji data
+```bash
+python manage.py initemojidata
+```
+
+## Index emoji data
+```bash
+python manage.py rebuild_index
+```
+
+## Run the app
 ```bash
 python manage.py runserver
 ```
