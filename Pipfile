@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "==3.0.7"
+django = "==3.0.12"
 django-haystack = {git = "https://github.com/django-haystack/django-haystack.git"}
 elasticsearch = "==5.5.3"
 requests = "==2.24.0"
